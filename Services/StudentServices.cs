@@ -7,7 +7,7 @@ namespace Branches_Practice
 {
     public class StudentServices : IStudentServices
     {
-        List<string> studentList = ["Student 1", "Student 2", "Student 3"];
+        List<string> studentList = ["Jacob", "Student 2", "Student 3"];
 
         public List<string> StudentsGetAll()
         {
