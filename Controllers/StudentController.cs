@@ -23,5 +23,12 @@ namespace Branches_Practice
         {
             return Ok(_studentservice.StudentsGetAll());
         }
+
+        [HttpGet("GetCount")]
+
+        public ActionResult<int> GetCount()
+        {
+            return Ok(_studentservice.StudentCount());
+        }
     }
 }

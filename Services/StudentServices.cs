@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Branches_Practice
 {
@@ -12,6 +13,11 @@ namespace Branches_Practice
         public List<string> StudentsGetAll()
         {
             return studentList;
+        }
+
+        public int StudentCount()
+        {
+            return studentList.Count;
         }
     }
 }
